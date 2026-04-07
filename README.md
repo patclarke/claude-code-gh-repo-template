@@ -17,7 +17,7 @@ Both plugins ([Superpowers](https://github.com/obra/superpowers) + [UI/UX Pro Ma
 ## What's Included
 
 ```
-ai-foundation/
+your-repo/
 ├── CLAUDE.md                          → project overview, committed
 ├── CLAUDE.local.md                    → personal overrides, gitignored
 │
