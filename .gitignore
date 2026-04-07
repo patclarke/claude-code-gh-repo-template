@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+._*
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+Thumbs.db
+Desktop.ini
+
+# Claude Code - personal/local files (do NOT commit)
+CLAUDE.local.md
+.claude/settings.local.json
+.claude/worktrees/
+.claude/projects/
+
+# Superpowers working files
+.superpowers/
+docs/superpowers/
+
+# Dependencies
+node_modules/
+__pycache__/
