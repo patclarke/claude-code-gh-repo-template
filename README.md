@@ -1,4 +1,4 @@
-# ai-foundation
+# claude-code-gh-repo-template
 
 A project template for Claude Code that works out of the box — permissions configured, skills installed, agent rules auto-loaded.
 
