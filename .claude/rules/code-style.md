@@ -9,4 +9,4 @@ description: "Project-specific code style rules. Customize for your stack."
 <!-- - Use TypeScript strict mode -->
 <!-- - Prefer functional components in React -->
 <!-- - Use snake_case for Python, camelCase for JavaScript -->
-<!-- Run /project:setup to auto-configure based on your tech stack -->
+<!-- Run /setup to auto-configure based on your tech stack -->

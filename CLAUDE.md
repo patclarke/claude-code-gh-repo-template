@@ -52,5 +52,5 @@
 
 ---
 
-> **First time?** Run `/project:setup` to customize this template for your project.
+> **First time?** Run `/setup` to customize this template for your project.
 > Agent behavior rules are in `.claude/rules/` — they load automatically.

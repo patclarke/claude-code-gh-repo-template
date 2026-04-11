@@ -10,7 +10,7 @@ A project template for Claude Code that works out of the box — permissions con
    ```bash
    claude plugin marketplace add https://github.com/nextlevelbuilder/ui-ux-pro-max-skill
    ```
-4. **Run `/project:setup`** — Claude walks you through customizing for your project
+4. **Run `/setup`** — Claude walks you through customizing for your project
 
 Both plugins ([Superpowers](https://github.com/obra/superpowers) + [UI/UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)) auto-install via `settings.json` once the marketplace is registered. Step 3 is only needed the first time on a new machine.
 
@@ -26,10 +26,10 @@ your-repo/
 │   ├── settings.local.json               personal overrides, gitignored
 │   │
 │   ├── commands/                      → custom slash commands
-│   │   ├── setup.md                      /project:setup (interactive onboarding)
-│   │   ├── review.md                     /project:review (self-review before commit)
-│   │   ├── fix-issue.md                  /project:fix-issue (issue resolution)
-│   │   └── deploy.md                     /project:deploy (deployment checklist)
+│   │   ├── setup.md                      /setup (interactive onboarding)
+│   │   ├── review.md                     /review (self-review before commit)
+│   │   ├── fix-issue.md                  /fix-issue (issue resolution)
+│   │   └── deploy.md                     /deploy (deployment checklist)
 │   │
 │   ├── rules/                         → auto-loaded every session
 │   │   ├── agent-behavior.md             dos/don'ts, safety boundaries
@@ -39,9 +39,9 @@ your-repo/
 │   │   ├── git-workflow.md               worktrees, branch checks, PRs
 │   │   ├── github-issues.md              issue-driven work, type prefixes
 │   │   ├── linting.md                    lint tools by stack
-│   │   ├── code-style.md                 placeholder — filled by /project:setup
-│   │   ├── testing.md                    placeholder — filled by /project:setup
-│   │   └── api-conventions.md            placeholder — filled or deleted by /project:setup
+│   │   ├── code-style.md                 placeholder — filled by /setup
+│   │   ├── testing.md                    placeholder — filled by /setup
+│   │   └── api-conventions.md            placeholder — filled or deleted by /setup
 │   │
 │   ├── skills/                        → project-specific skills (plugins auto-install)
 │   │   └── .gitkeep
@@ -59,7 +59,7 @@ your-repo/
 
 ## Customization
 
-### Option 1: Run `/project:setup` (Recommended)
+### Option 1: Run `/setup` (Recommended)
 
 The setup command asks about your project and auto-configures everything:
 - Fills in CLAUDE.md with your project details
@@ -104,7 +104,7 @@ The setup command asks about your project and auto-configures everything:
 - `make *` — executes arbitrary shell commands
 - `python -c *` — arbitrary code execution
 
-Add project-specific tools via `/project:setup` or manually in `.claude/settings.json`.
+Add project-specific tools via `/setup` or manually in `.claude/settings.json`.
 
 ## Adding Your Own
 
@@ -119,7 +119,7 @@ paths:
 ```
 
 ### Commands
-Create `.claude/commands/your-command.md`. Invoke with `/project:your-command`.
+Create `.claude/commands/your-command.md`. Invoke with `/your-command`.
 
 ### Agents
 Create `.claude/agents/your-agent.md` with frontmatter:
@@ -148,7 +148,7 @@ If you previously used AGENTS.md, SOUL.md, TEAM.md, PLANS.md at the repo root:
    - SOUL.md customizations → `code-quality.md`, `decision-making.md`, or `communication.md`
    - TEAM.md customizations → create `.claude/rules/team-coordination.md`
 4. **Update** your CLAUDE.md — remove `@AGENTS.md` / `@SOUL.md` imports
-5. **Run** `/project:setup` to fill in placeholder rules
+5. **Run** `/setup` to fill in placeholder rules
 6. **Delete** the old root-level files
 7. **Verify** — open Claude Code, confirm rules auto-load
 

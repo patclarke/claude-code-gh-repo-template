@@ -10,4 +10,4 @@ description: "Project-specific testing rules. Customize for your stack."
 <!-- - Framework: Jest + React Testing Library -->
 <!-- - Coverage threshold: 80% -->
 <!-- - Integration tests hit real database, no mocks -->
-<!-- Run /project:setup to auto-configure based on your tech stack -->
+<!-- Run /setup to auto-configure based on your tech stack -->
