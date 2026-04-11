@@ -8,7 +8,7 @@ Before deploying, verify:
 - [ ] No breaking changes without migration plan
 
 <!-- CUSTOMIZE: Replace with your deployment commands -->
-<!-- /project:setup will fill this in automatically -->
+<!-- /setup will fill this in automatically -->
 <!-- Examples: -->
 <!-- gh workflow run deploy.yml -->
 <!-- git push (for Atlantis-managed Terraform) -->

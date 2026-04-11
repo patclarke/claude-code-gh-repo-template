@@ -10,4 +10,4 @@ description: "Project-specific API conventions. Customize for your stack."
 <!-- - Error format: { "error": "message", "code": "ERROR_CODE" } -->
 <!-- - Auth: Bearer token in Authorization header -->
 <!-- - Versioning: /api/v1/ prefix -->
-<!-- Run /project:setup to auto-configure, or delete this file if not building an API -->
+<!-- Run /setup to auto-configure, or delete this file if not building an API -->
