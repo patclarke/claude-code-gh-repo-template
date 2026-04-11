@@ -60,6 +60,7 @@
       "Bash(git pull)",
       "Bash(git push *)",
       "Bash(git push)",
+      "Bash(git worktree:*)",
       "Bash(gh pr *)",
       "Bash(gh issue *)",
       "Bash(ls *)",
@@ -71,6 +72,7 @@
       "Bash(git push origin master *)",
       "Bash(git push -f *)",
       "Bash(git push --force *)",
+      "Bash(git worktree remove --force*)",
       "Bash(rm -rf *)"
     ]
   }
