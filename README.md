@@ -87,7 +87,7 @@ The setup command asks about your project and auto-configures everything:
 - Build tools: cargo build, go build
 - Project scripts: `npm run *`
 - Python: `python *.py`, `python -m *`
-- Git: status, diff, log, branch, add, commit, checkout, stash, switch, pull, push
+- Git: status, diff, log, branch, add, commit, checkout, stash, switch, pull, push, worktree
 - GitHub CLI: `gh pr *`, `gh issue *`
 - Directory listing: `ls`
 
@@ -96,6 +96,7 @@ The setup command asks about your project and auto-configures everything:
 - `terraform *` — managed via CI/CD, not locally
 - `git push origin main/master` — use feature branches
 - `git push -f / --force` — prevents history rewriting
+- `git worktree remove --force` — prevents discarding uncommitted work
 - `rm -rf *` — prevents accidental deletion
 
 ### Requires Approval (Not in Allow or Deny)
