@@ -90,6 +90,7 @@ The setup command asks about your project and auto-configures everything:
 - Git: status, diff, log, branch, add, commit, checkout, stash, switch, pull, push
 - GitHub CLI: `gh pr *`, `gh issue *`
 - Directory listing: `ls`
+- Directory navigation: `cd`
 
 ### Blocked (Always Denied)
 

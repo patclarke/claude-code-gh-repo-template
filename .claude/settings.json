@@ -63,7 +63,8 @@
       "Bash(gh pr *)",
       "Bash(gh issue *)",
       "Bash(ls *)",
-      "Bash(ls)"
+      "Bash(ls)",
+      "Bash(cd *)"
     ],
     "deny": [
       "Bash(terraform *)",
